@@ -1,0 +1,67 @@
+/* *{
+    margin: 0;
+    padding:0;
+    
+} */
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    
+    /* align-items: center; */
+    
+
+}
+.container{
+    display: flex;
+    /* border: 1px solid gray; */
+    width: 598px;
+    height: 440px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    
+    
+}
+
+#coffeemug{
+    letter-spacing: 6px;
+    line-height: 9px;
+}
+
+.para{
+    padding: 1.5rem;
+    background-color: white;
+    
+}
+#rs1{
+    color: green;
+    font-weight:900;
+    font-size: 2rem;
+}
+#rs1 del{
+    color: gray;
+    font-size: 1rem;
+
+}
+.cart{
+    background-color: green;
+    border-radius: 8px;
+    height: 35px;
+    width: 250px;
+    
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+
+
+}
